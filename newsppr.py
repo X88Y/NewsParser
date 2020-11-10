@@ -16,3 +16,4 @@ def news():
             result.append(((str(new)[15:-19])))
             result.append('')
     return (str(result)[2:-2]).replace("\', \'", '\n')
+print(news())
